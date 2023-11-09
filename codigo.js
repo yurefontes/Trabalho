@@ -32,10 +32,9 @@
     function Decimo(){
     
     var decimo =
-    if (d>0 && d<=12){
-        decimo = c + Math.round(c *(d/12)) 
+        if (d>0 && d<=12){
+            decimo = c + Math.round(c *(d/12))}
     }
-    
   
 
     alert("Seu décimo terceiro será " + decimo);
